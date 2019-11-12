@@ -1,0 +1,226 @@
+.container {
+  max-width: 1179px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.primary-title {
+  color: #fff;
+  font: 700 48px "Montserrat", sans-serif;
+}
+
+.header {
+  display: none;
+}
+
+.intro {
+  max-width: 100%;
+  height: 800px;
+  background: url(../img/intro.png) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro-title {
+  color: #fff;
+  font: 700 82px "Montserrat", sans-serif;
+  padding-top: 108px;
+}
+
+.intro-subtitle {
+  margin-bottom: 18px;
+  color: #8d81ac;
+  font: 400 30px "Lato", sans-serif;
+}
+
+.intro p {
+  color: #848e97;
+  font: 400 16px "Montserrat", sans-serif;
+}
+
+.download-app {
+  min-width: 100%;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.download-app .title {
+  margin-bottom: 34px;
+  color: #635c73;
+  font: 700 54px "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.download-app p {
+  max-width: 878px;
+  margin: 0 auto 36px;
+  font: 400 21px/32px "Source Sans Pro";
+  color: #323232;
+}
+
+.download-button-container {
+  position: relative;
+  bottom: 35px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.download-file {
+  margin-bottom: 19px;
+  max-width: 390px;
+  background-color: #8d81ac;
+  color: #fff;
+  font: 700 21px/62px "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.services {
+  padding: 84px 0 69px;
+  width: 100%;
+  min-height: 711px;
+  background-color: #f4f4f4;
+}
+
+.service-parent-item {
+  width: 607px;
+}
+
+/*.service-parent-item .code-tempalate {*/
+  /*position: absolute;*/
+  /*right: 0;*/
+/*}*/
+
+.services-container {
+  max-width: 501px;
+}
+
+.service-item-box .img-container {
+  width: 111px;
+}
+
+.service-item-box-content {
+  max-width: 366px;
+}
+
+.service-parent-item:last-child {
+  position: absolute;
+  right: 400px;
+}
+
+.about-fork {
+  width: 100%;
+  padding: 98px 0 49px;
+  background: url(../img/img1.png) top center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.about-fork::after {
+  display: block;
+  content: '';
+  margin-bottom: 49px;
+  max-width: 780px;
+  background-color: #c7c7c7;
+  opacity: 0.2;
+}
+
+.about-fork .img-container {
+  width: 100%;
+  height: 64px;
+}
+
+.about-fork-content li {
+  max-width: 326px;
+  height: 152px;
+  margin-top: 83px;
+  display: flex;
+  flex-flow:  column nowrap;
+  justify-content: space-between;
+}
+
+.about-fork-content p {
+  color: #fff;
+  font: 400 16px/24px 'Source Sans Pro', sans-serif;
+  font-style: italic;
+}
+
+.subscription-pricing {
+  width: 100%;
+  padding: 30px 0 77px;
+  background: url(../img/img1.png) bottom center no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.pricing-list {
+  margin: 51px 0 133px;
+}
+
+.list-item-header-title {
+  width: 100%;
+  height: 97px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font: 400 24px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pricing-list-item {
+  margin-top: 69px;
+  width: 257px;
+  height: 457px;
+  display: flex;
+  flex-flow:  column nowrap;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.pricing-list-item .price {
+  padding: 36px 0 26px;
+  font: 700 60px "Montserrat", sans-serif;
+}
+
+.pricing-list-item .license-time {
+  opacity: 0.3;
+  font: 400 14px "Montserrat", sans-serif;
+}
+
+.pricing-list-item .license-time::after {
+  display: block;
+  content: '';
+  margin: 38px auto 31px;
+  width: 60px;
+  height: 5px;
+  background-color: #8d81ac;
+}
+
+.type-license {
+  font: 400 16px/28px "Montserrat", sans-serif;
+}
+
+.subscription-pricing-btn {
+  width: 160px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font: 400 15px/42px "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.post-item {
+  max-width: 336px;
+}
